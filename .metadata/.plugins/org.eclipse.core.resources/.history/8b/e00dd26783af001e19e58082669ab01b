@@ -1,0 +1,53 @@
+package com.example.demo;
+
+public class Employee {
+private int eid;
+private String ename;
+private double salary;
+public int getEid() {
+	return eid;
+}
+public void setEid(int eid) {
+	this.eid = eid;
+}
+public String getEname() {
+	return ename;
+}
+public void setEname(String ename) {
+	this.ename = ename;
+}
+public double getSalary() {
+	return salary;
+}
+public void setSalary(double salary) {
+	this.salary = salary;
+}
+
+@Override
+public String toString() {
+	return "Employee [eid=" + eid + ", ename=" + ename + ", salary=" + salary + "]";
+}
+
+
+}
+
+
+
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TestController {
+
+	@RequestMapping("/employee")
+	public Employee data() {
+		Employee e=new Employee();
+		e.setEid(1);
+		e.setEname("kk");
+		e.setSalary(10000);
+		return e;
+	}
+	
+}

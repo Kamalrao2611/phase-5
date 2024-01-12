@@ -1,0 +1,13 @@
+INDEX VERSION 1.4+/Users/kamal/Documents/phase5/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2517246225.index
+1225248617.index
+40840855.index
+552404300.index
+2685521288.index
+2831310376.index
+1033506179.index
+380729239.index
+2237602868.index
+2922951058.index
+1601687900.index
+580966518.index

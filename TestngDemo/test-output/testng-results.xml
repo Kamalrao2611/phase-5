@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-05T10:38:56 IST" name="Suite" finished-at="2024-01-05T10:39:31 IST" duration-ms="34292">
+    <groups>
+      <group name="ecommerce">
+        <method signature="GroupTesting.flipkart()[pri:0, instance:com.example.GroupTesting@e15b7e8]" name="flipkart" class="com.example.GroupTesting"/>
+        <method signature="GroupTesting.myntra()[pri:0, instance:com.example.GroupTesting@e15b7e8]" name="myntra" class="com.example.GroupTesting"/>
+      </group> <!-- ecommerce -->
+    </groups>
+    <test started-at="2024-01-05T10:38:56 IST" name="Test1" finished-at="2024-01-05T10:39:31 IST" duration-ms="34292">
+      <class name="com.example.GroupTesting">
+        <test-method signature="flipkart()[pri:0, instance:com.example.GroupTesting@e15b7e8]" started-at="2024-01-05T10:38:57 IST" name="flipkart" finished-at="2024-01-05T10:39:14 IST" duration-ms="17566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkart -->
+        <test-method signature="myntra()[pri:0, instance:com.example.GroupTesting@e15b7e8]" started-at="2024-01-05T10:39:14 IST" name="myntra" finished-at="2024-01-05T10:39:31 IST" duration-ms="16536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myntra -->
+      </class> <!-- com.example.GroupTesting -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
